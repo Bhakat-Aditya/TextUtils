@@ -11,7 +11,7 @@ function Accordian(props) {
                             Convert to UpperCase
                         </button>
                     </h2>
-                    <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
                             This feature takes your entire input text and converts every letter into uppercase. It’s especially useful when you want to highlight important points, create attention-grabbing headings, or simply standardize the format of your content.
                             <br />For example, “hello world” becomes “HELLO WORLD”.
